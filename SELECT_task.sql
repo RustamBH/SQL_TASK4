@@ -16,9 +16,10 @@ FROM tracks
 WHERE duration > 3.5 * 60;
 
 
-названия сборников, вышеSELECT name
+названия сборников, вышедших в период с 2018 по 2020 год включительно;
+SELECT name
 FROM collection
-WHERE release_date BETWEEN 2018 AND 2020;дших в период с 2018 по 2020 год включительно;
+WHERE release_date BETWEEN 2018 AND 2020;
 
 
 исполнители, чье имя состоит из 1 слова;
